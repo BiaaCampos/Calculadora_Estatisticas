@@ -8,7 +8,7 @@ Ela permite ao usuário inserir uma lista de números e gera automaticamente as 
 
 Média, Soma, Maior e menor valor e Percentual de valores acima da média
 
-**É um projeto inicial para quem deseja aprender Python e análise de dados e serve como portfólio para iniciantes em Data Analytics.** 
+**É um projeto inicial para quem deseja aprender Python e análise de dados.** 
 
 ## Funcionalidades
 
