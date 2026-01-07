@@ -1,22 +1,16 @@
-#Calculadora de Estatísticas - Python
+# Calculadora de Estatísticas - Python
 
-#Descrição
+## Descrição
 
 Este projeto é uma calculadora de estatísticas simples desenvolvida em Python.
 
 Ela permite ao usuário inserir uma lista de números e gera automaticamente as principais métricas, como:
 
-Média
+Média, Soma, Maior e menor valor e Percentual de valores acima da média
 
-Soma
+**É um projeto inicial para quem deseja aprender Python e análise de dados e serve como portfólio para iniciantes em Data Analytics.** 
 
-Maior e menor valor
-
-Percentual de valores acima da média
-
-É um projeto inicial para quem deseja aprender Python e análise de dados e serve como portfólio para iniciantes em Data Analytics.
-
-Funcionalidades
+## Funcionalidades
 
 Entrada de números pelo usuário
 
@@ -28,17 +22,17 @@ Percentual de números acima da média
 
 Interface simples via terminal
 
-Tecnologias usadas
+## Tecnologias usadas
 
 Python 3.x
 
 Bibliotecas nativas: nenhuma (opcional: Pandas se você quiser salvar CSVs)
 
-Como usar
+## Como usar
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/calculadora-estatisticas.git
+git clone https://github.com/seu-usuario/Calculadora-Estatisticas.git
 
 
 Entre na pasta do projeto:
