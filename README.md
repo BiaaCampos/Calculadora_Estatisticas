@@ -42,10 +42,10 @@ cd calculadora-estatisticas
 
 Execute o script Python:
 
-python calculadora_estatisticas.py
+python .calculadora/calculadora_estatisticas.py
 
 
-Siga as instruções no terminal:
+## Siga as instruções no terminal:
 
 Digite os números separados por vírgula ou um por vez, dependendo da implementação.
 
@@ -59,9 +59,13 @@ Maior valor: 9
 Menor valor: 5
 Valores acima da média: 40%
 
-Estrutura do projeto
-calculadora-estatisticas/
+## Estrutura do projeto
+
+calculadora_estatistica/
 │
-├── calculadora_estatisticas.py  # Script principal
-├── README.md                    # Este arquivo
-└── .gitignore                   # (opcional) para ignorar arquivos temporários
+├── calculadora_html.py 
+├── templates/ 
+│ └── resultado.html 
+├── static/ 
+│ └── style.css 
+└── README.md
