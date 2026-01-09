@@ -3,17 +3,27 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Calculadora de Estatísticas</title>
+    <title>Calculadora de Estat&iacute;sticas</title>
     <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../app.py">
 </head>
 <body>
-    <div class="container">
-        <h1>Calculadora de Estat&iacute;sticas</h1>
-        <p>Soma: 7.0</p>
-        <p>M&eacute;dia: 3.5</p>
-        <p>Maior valor: 6.0</p>
-        <p>Menor valor: 1.0</p>
-        <p>Percentual acima da m&eacute;dia: 50.00%</p>
+    <div class="containerMaior">
+        <div class="container">
+            <h1>Calculadora de Estat&iacute;sticas</h1>
+            <div class="inputEstatic">
+                <form method="POST">
+                    <p class="pInput">Insira os valores separados por vÃ­rgula:</p>
+                    <input class="input" type="text" name="numeros" required>
+                    <button class="botaoCalcular" type="submit" >Calcular</button>
+                </form>
+            </div>
+            <p>Soma: {{ soma }}</p>
+            <p>M&eacute;dia: {{ media }}</p>
+            <p>Maior valor: {{ maior }}</p>
+            <p>Menor valor: {{ menor }}</p>
+            <p>Percentual acima da m&eacute;dia: {{ perc_acima }}%</p>
+        </div>
     </div>
 </body>
 </html>
