@@ -22,7 +22,7 @@
 
     Estilo simples via CSS
 
-    ## Tecnologias usadas
+ ## Tecnologias usadas
 
     Python 3.x
 
